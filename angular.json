@@ -100,8 +100,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5c3675fa-216f-4641-9d25-0c1222a58306"
   }
 }

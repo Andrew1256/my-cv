@@ -1,0 +1,17 @@
+    
+    <div class="contact-form">
+    <form (ngSubmit)="sendEmail()">
+      
+      <label for="message">Повідомлення:</label>
+      <textarea class="contact-form" id="message" [(ngModel)]="message" name="message" required #messageField="ngModel"></textarea>
+      
+    </form> 
+  </div>
+  <form (ngSubmit)="sendEmail()">
+    <button class="learn-more">
+      <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+      </span>
+      <span class="button-text">Send </span>
+    </button>
+  </form>
