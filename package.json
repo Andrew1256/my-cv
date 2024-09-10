@@ -10,7 +10,7 @@
     "serve:ssr:cv": "node dist/cv/server/server.mjs",
     "deploy": "ng build --prod --base-href=\"https://Andrew1256.github.io/my-cv/\" && ngh"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
